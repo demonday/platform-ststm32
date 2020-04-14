@@ -46,12 +46,13 @@
   "name": "BluePill F103C8",
   "upload": {
     "maximum_ram_size": 20480,
-    "maximum_size": 65536,
+    "maximum_size": 131072,
     "protocol": "stlink",
     "protocols": [
       "jlink",
       "stlink",
       "blackmagic",
+      "cmsis-dap",
       "mbed",
       "dfu"
     ]
